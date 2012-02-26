@@ -4,8 +4,15 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-#  column: value
+
+#Create an event with very simple data
+SimpleEvent:
+    event_name: Simple Event
+    start_time: 10
+    end_time: 12
+
+#Create another event with very simple data (just for the heck of it)
+DrollEvent:
+    event_name: DrollEvent
+    start_time: 1
+    end_time: 9

@@ -3,6 +3,7 @@ class CreateCalendars < ActiveRecord::Migration
     create_table :calendars do |t|
         t.string :calendar_name #Add the name colum
         t.string :description #Add the optional description colum
+        t.references :user
       t.timestamps
     end
   end

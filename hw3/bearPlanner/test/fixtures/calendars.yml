@@ -4,8 +4,18 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-#  column: value
+
+#Create a calendar with very simple data
+BoringCalendar:
+    calendar_name: Boring Calendar
+
+#Create a calendar with a description
+BoringCalendarWithDescription:
+    calendar_name: Boring Describable Calendar
+    description: A calendar for a typical antisocial.
+    
+
+#Create a more complex calendar with events
+LessBoringCalendar:
+    calendar_name: Less Boring Calendar
+    
